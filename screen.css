@@ -1,1 +1,119 @@
-/* Add screen styles below */
+/* 20 rule sets
+1 type, class, ID, and attribue selector
+3 of the 5 following:
+    A sticky sidebar or navigation header (using position: sticky)
+    A Two column Flexbox layout
+    A Three column Flexbox layout with a large middle column and equal width side columns
+    A left or right floated image with a caption
+    A multi-column form layout using Flexbox*/
+
+html{
+    background-color: #93C4D1;
+}
+
+header{
+    position: sticky;
+    background-color: lightgray;
+    top: 0;
+    padding: 20px;
+}
+
+h1{
+    margin-top: -10px;
+    margin-bottom: 0;
+    font-size: 3.5em;
+}
+
+
+
+body{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 40px;
+    padding: 40px;
+    border-top: 10px solid #93A5D1;
+}
+
+
+main{
+    display: flex;
+}
+
+article{
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+#blog{
+    border-top:  dotted #93A5D1;
+}
+
+.blog-post{
+    border-bottom: dotted #93A5D1;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+.image-daggers img{
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.village-pic img{
+    width: 100%;
+    height: auto;
+}
+
+.image-portrait img{
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+    height: auto;
+}
+
+li{
+    line-height: 1.2em;
+    margin-bottom: 8px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+label{
+    padding-top: 20px;
+}
+
+.submit{
+    margin-top: 10px;
+    align-self: flex-end;
+    width: 60px
+}
+
+table{
+    margin: 0 auto;
+}
+
+th, td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.author{
+    color:#93D1BF
+}
